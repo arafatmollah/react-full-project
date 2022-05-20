@@ -1,0 +1,17 @@
+.shop{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 45px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.inventory{
+    background-color: #FFE0B3;
+    height: 600px;
+    padding: 25px;
+    width: 250px;
+}
